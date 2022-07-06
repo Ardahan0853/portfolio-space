@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trispace', sans-serif;
+    background-color: black;
+}
+
+/* This is start of page-1 */ 
+.page-1{
+   position: relative;
+    height: 100vh;
+}
+.text{
+    color: wheat;
+}
+.star{
+    position: absolute;
+    
+    color: white;
+}
+.star-1{
+    right:  20%;
+    bottom: 10%;
+}
+.star-2{
+    left: 30%;
+    top: 30%;
+}
+
+.star-3{
+    right: 50%;
+    bottom: 20%;
+}
+.star-4{
+    right:  20%;
+    bottom: 70%;
+}
+.star-5{
+    left: 15%;
+    bottom: 45%;
+}
+.star-6{
+    top: 10%;
+    left: 50%;
+}
+.star-7{
+    right: 30%;
+    bottom: 40%;
+}
+.star-8{
+    bottom: 15%;
+    left: 25%;
+}
+.star-9{
+    top: 7%;
+    left: 15%;
+}
+.star-10{
+    top:12%;
+    right: 10%;
+}
+
+.div-text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-left: 25px;
+}
+/* This is end of page-1 */ 
+
+/* Start of page-2*/
+.div-text-2{
+    position: absolute;
+    top: 32%;
+    right: 50%;
+    color: wheat;
+}
+.section-2{
+    height: 100vh;
+    position: relative;
+   
+}
+.image-ben{
+    opacity: 0.4;
+    border-radius: 30%;
+    margin: 30px;
+    width: 80%;
+    
+}
+
+
+.container{
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#me{
+    font-size: 4vh;
+    padding-top: 20%;
+    color: wheat;
+}
+.skills{
+    margin-right: auto;
+}
+
+.skills-text{
+    color: white;
+    margin: 50px;
+}
+/* end of page-2 */
+
+/* start of section 3 */
+
+
+.flip-card {
+    
+    width: 500px;
+    height: 400px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin: auto;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+
+    transform: rotateY(180deg);
+  }
+  .section-3{
+    height: 100vh;
+    display: flex;
+  }
+  .react-admin{
+    width: 100%;
+  }
+  .React-admin-panel-text{
+    color: white;
+  }
+  .react-admin-panel-gif{
+    width: 100%;
+  }
+  .Personal-site{
+    width: 100%;
+  }
+  .contact{
+    margin: auto;
+    display: block;
+  }
+  a{
+    display: block;
+    padding: 20px;
+    color: white !important;
+  }a:hover{
+    color: wheat !important;
+  }
+@media (max-width:1200px){
+    .section-3{
+        display: block;
+    }
+    .contact{
+        display: flex;
+        margin-left: auto;
+        text-align: center;
+    }
+}
