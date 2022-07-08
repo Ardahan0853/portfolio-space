@@ -46,14 +46,25 @@ gsap.registerPlugin(ScrollTrigger)
     x:-100
 
   })
-  gsap.from(".skills",{
+  gsap.from(".skills-text",{
     scrollTrigger:{
-        trigger:".skills"
+        trigger:".skills-text"
     },
+    delay:1.5,
     duration:1.5,
     x:300,
-    ease:"bounce"
+    opacity:0
     
+  })
+  gsap.from(".list-item",{
+    scrollTrigger:{
+      trigger:".list-item"
+    },
+    delay:2,
+    duration:1.5,
+    y:300,
+    opacity:0,
+    stagger:0.2
   })
   gsap.to("#me",{
     scrollTrigger:{
