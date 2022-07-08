@@ -99,14 +99,7 @@
     padding-top: 20%;
     color: wheat;
 }
-.skills{
-    margin-right: auto;
-}
 
-.skills-text{
-    color: white;
-    margin: 50px;
-}
 /* end of page-2 */
 
 /* start of section 3 */
@@ -193,7 +186,7 @@
         text-align: center;
     }
 }
-ul > li {
+.list-item {
   color:thistle;
   list-style:none;
   font-size: 15px;
